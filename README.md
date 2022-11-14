@@ -1,35 +1,25 @@
-# Unit Review: Age Calculator Project
+# FLW 01.4 // Code Along #2 // .innerHTML v. .insertAdjacentHTML
 
-## Project Description
-In this mini-project, you will use  JavaScript concepts like variables, operators, and data types to build an interactive website that calculates age.You will likely also need to access and use the dev tools.
+## Description
+Oh no! Our message board isn't working - looks like we need to add a few things.
 
-Follow the steps below to make your very own site! 
+Follow the steps below! 
 Make sure to check off your items as you complete them. [ ] => [x]
 
-## Day 1
 
-### Set-Up
-- [x] Go to the repository at https://github.com/itscodenation/age-calculator-starter
-- [x] Fork this repository to your Github account and pull it down to Glitch.
-- [ ] Add, commit, and push your changes.
-
-### JavaScript
-- [ ] Create a new variable that stores the user's birth year.
-- [ ] This variable should hold the birth year that the user inputs on the page.
-- [ ] Create a new variable to store the age of the user. 
-- [ ] Calculate the user's age by subtracting their birth year from the year you live in today. Store the result in the age variable.
-- [ ] Append the user's age to the message div.
-- [ ] Add a name input so the app can display a more personalized message.
+## Code Along
 
 
-### Wrap
-- [ ] Push your changes!
-- [ ] Save and submit your website link using the link on the session agenda.
+Let's get the .innerHTML button setup:
+1. [ ] Assign the `replaceText` selector to the first onclick event.
+2. [ ] Write the code needed to replace the text for the `message` selector.
+3. Press Run and test the .innerHTML button with a couple messages!
+</br>
+</br>
 
-### Project Extensions
-- [ ] Extension: Add another input for the user to put in the current year and do the math from there so the app always works
-- [ ] Extension: Style your app any way you want.
+Now, let's set up the .insertAdjacentHTML button:
 
-
-### Hint
-Having trouble? Make sure you are using the right types of data to do your math by using the console.
+4. [ ] Assign the `addText` selector to the second onclick event.
+5. [ ] Write the code needed to add text to the `message` selector.
+6. [ ] Press Run and test the .insertAdjacentHTML button with a couple messages!
+      
